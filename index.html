@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Game of choice not chance</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="i/favicon-default.png">
+	<!-- AOS 3.0.0-beta.6 plugin CSS (Animations) -->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&subset=latin&display=swap"
+		rel="stylesheet">
+	<!-- Startup CSS + Bootstrap CSS (Styles for all blocks) - Remove ".min" if you want to edit a css code -->
+	<link href="css/styles.min.css" rel="stylesheet" />
+	<link href="css/own.css" rel="stylesheet" />
+	<!-- jQuery 3.6.0 (uncomment line below if you need jQuery) -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+	<!-- Open graph settings (social networks sharing settings) -->
+	<meta name='twitter:card' content='summary_large_image'>
+	<!-- Open graph settings end -->
+	<style type="text/css">
+		#Connect {
+			padding-top: 150px !important;
+		}
+
+		.bigger{
+			min-width: 120%;
+		}
+
+		.topbar{
+			align-items: start !important;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Navigation 1 -->
+	<nav class="bg-bg-3 sticky-top py-4 py-lg-7">
+		<div class="d-block d-lg-none">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="col-3" data-aos="fade-down" data-aos-delay="0">
+						<a class="btn btn-width-equal-height d-lg-none rounded-circle custom-mobile-nav-btn"
+							data-bs-toggle="offcanvas" data-bs-target="#custom-id-ocfhb6fw">
+							<svg width="20" height="20" viewBox="0 0 16 16" fill="none"
+								xmlns="http://www.w3.org/2000/svg" class="fill-light-1">
+								<path
+									d="M2.00016 5.33333H14.0002C14.177 5.33333 14.3465 5.2631 14.4716 5.13807C14.5966 5.01305 14.6668 4.84348 14.6668 4.66667C14.6668 4.48986 14.5966 4.32029 14.4716 4.19526C14.3465 4.07024 14.177 4 14.0002 4H2.00016C1.82335 4 1.65378 4.07024 1.52876 4.19526C1.40373 4.32029 1.3335 4.48986 1.3335 4.66667C1.3335 4.84348 1.40373 5.01305 1.52876 5.13807C1.65378 5.2631 1.82335 5.33333 2.00016 5.33333ZM14.0002 10.6667H2.00016C1.82335 10.6667 1.65378 10.7369 1.52876 10.8619C1.40373 10.987 1.3335 11.1565 1.3335 11.3333C1.3335 11.5101 1.40373 11.6797 1.52876 11.8047C1.65378 11.9298 1.82335 12 2.00016 12H14.0002C14.177 12 14.3465 11.9298 14.4716 11.8047C14.5966 11.6797 14.6668 11.5101 14.6668 11.3333C14.6668 11.1565 14.5966 10.987 14.4716 10.8619C14.3465 10.7369 14.177 10.6667 14.0002 10.6667ZM14.0002 7.33333H2.00016C1.82335 7.33333 1.65378 7.40357 1.52876 7.5286C1.40373 7.65362 1.3335 7.82319 1.3335 8C1.3335 8.17681 1.40373 8.34638 1.52876 8.4714C1.65378 8.59643 1.82335 8.66667 2.00016 8.66667H14.0002C14.177 8.66667 14.3465 8.59643 14.4716 8.4714C14.5966 8.34638 14.6668 8.17681 14.6668 8C14.6668 7.82319 14.5966 7.65362 14.4716 7.5286C14.3465 7.40357 14.177 7.33333 14.0002 7.33333Z">
+								</path>
+							</svg>
+						</a>
+					</div>
+					<div class="col-6 text-center" data-aos="fade-down" data-aos-delay="250">
+						<a href="https://gameofchoicenotchance.com/">
+							<img src="i/smalllogonewer.png" srcset="i/smalllogonewer.png 2x" alt=""
+								class="img-fluid bigger" data-aos="fade-down" data-aos-delay="0">
+						</a>
+					</div>
+					<div class="col-3" data-aos="fade-down" data-aos-delay="500">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-start bg-bg-3" id="custom-id-ocfhb6fw" aria-hidden="true">
+			<div class="offcanvas-header">
+				<a href="https://gameofchoicenotchance.com/">
+					<img src="i/smalllogonewer.png" srcset="i/smalllogonewer.png 2x" alt=""
+						class="img-fluid bigger" data-aos="fade-down" data-aos-delay="0">
+				</a>
+				<a class="btn btn-sm btn-width-equal-height btn-bg-3" data-bs-dismiss="offcanvas">
+					<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+						class="fill-dark-2">
+						<path
+							d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z">
+						</path>
+					</svg>
+				</a>
+			</div>
+			<div class="offcanvas-body">
+				<div>
+					<a href="#home" class="fw-bold text-dark-1 py-2 d-inline-block">
+						Home
+					</a>
+				</div>
+				<div>
+					<a href="#our-story" class="fw-bold text-dark-1 py-2 d-inline-block">
+						Our story
+					</a>
+				</div>
+				<div>
+					<a href="#enter-nisha" class="fw-bold text-dark-1 py-2 d-inline-block">
+						Enter Nisha
+					</a>
+				</div>
+				<div>
+					<a href="#go-approach" class="fw-bold text-dark-1 py-2 d-inline-block">
+						GOC approach
+					</a>
+				</div>
+				<div>
+					<a href="#key-layers" class="fw-bold text-dark-1 py-2 d-inline-block">
+						Key players
+					</a>
+				</div>
+				<div>
+					<a href="#Connect" class="fw-bold text-dark-1 py-2 d-inline-block">
+						Connect
+					</a>
+				</div>
+				<div class="hide-menu-social">
+					<div class="socialnew">
+						<ul>
+							<li>
+								<a href="https://www.linkedin.com/company/game-of-choice-not-chance/" target="_blank">
+									<img src="i/social-1.jpg" srcset="i/social-1.png 1.3x" alt="" class="img-fluid"
+										data-aos="fade-down" data-aos-delay="0">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.instagram.com/gameofchoice_hdi/" target="_blank">
+									<img src="i/social-2.jpg" srcset="i/social-2.png 1.3x" alt="" class="img-fluid"
+										data-aos="fade-down" data-aos-delay="0">
+								</a>
+							</li>
+							<li>
+								<a href="https://www.youtube.com/@gameofchoicenotchance_hdi" target="_blank">
+									<img src="i/social-3.jpg" srcset="i/social-3.png 1.3x" alt="" class="img-fluid"
+										data-aos="fade-down" data-aos-delay="0">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="d-none d-lg-block">
+			<div class="container">
+				<div class="row align-items-center justify-content-between topbar">
+					<div class="col-2">
+						<a href="#">
+							<img src="i/biglogonewer.png" 
+								srcset="i/biglogonewer.png 2x" alt="" class="img-fluid bigger"
+								data-aos="fade-down" data-aos-delay="0">
+						</a>
+					</div>
+					<div class="text-center d-flex justify-content-center col-8">
+						<a href="#home" class="menulinks fw-bold mx-4 text-dark-1" data-aos="fade-down"
+							data-aos-delay="150">
+							Home
+						</a>
+						<a href="#our-story" class="menulinks fw-bold mx-4 text-dark-1" data-aos="fade-down"
+							data-aos-delay="250">
+							Our story
+						</a>
+						<a href="#enter-nisha" class="menulinks fw-bold mx-4 text-dark-1" data-aos="fade-down"
+							data-aos-delay="400">
+							Enter Nisha
+						</a>
+						<a href="#go-approach" class="menulinks fw-bold mx-4 text-dark-1" data-aos="fade-down"
+							data-aos-delay="500">
+							GOC approach
+						</a>
+						<a href="#key-layers" class="menulinks fw-bold mx-4 text-dark-1" data-aos="fade-down"
+							data-aos-delay="500">
+							Key players
+						</a>
+						<a href="#connect" class="menulinks fw-bold mx-4 text-dark-1" data-aos="fade-down"
+							data-aos-delay="500">
+							Connect
+						</a>
+					</div>
+					<div class="col-2">
+						<div class="hide-menu-social">
+							<div class="socialnew">
+								<ul>
+									<li>
+										<a href="https://www.linkedin.com/company/game-of-choice-not-chance/"
+											target="_blank">
+											<img src="i/social-1.jpg" srcset="i/social-1.png 1.3x" alt=""
+												class="img-fluid" data-aos="fade-down" data-aos-delay="0">
+										</a>
+									</li>
+									<li>
+										<a href="https://www.instagram.com/gameofchoice_hdi/" target="_blank">
+											<img src="i/social-2.jpg" srcset="i/social-2.png 1.3x" alt=""
+												class="img-fluid" data-aos="fade-down" data-aos-delay="0">
+										</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/@gameofchoicenotchance_hdi" target="_blank">
+											<img src="i/social-3.jpg" srcset="i/social-3.png 1.3x" alt=""
+												class="img-fluid" data-aos="fade-down" data-aos-delay="0">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!-- Content 15 -->
+	<section class="py-10 py-lg-20 bg-bg-3 text-center" id="home">
+		<div class="container">
+			<div class="position-relative" data-aos="fade-down" data-aos-delay="0">
+				<img src="i/video1-1670188073.jpg" srcset="i/video1-1670188073.jpg 2x" alt="" class="img-fluid pb-8">
+				<a href="https://www.youtube.com/embed/MvOZYNX6Ri8"
+					class="btn btn-width-equal-height position-absolute translate-middle top-50 start-50 rounded-circle btn-light-1"
+					data-bs-toggle="modal" data-bs-target="#custom-id-7guwfkto">
+					<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+						class="fill-action-1">
+						<path
+							d="M17.394 13.046L7.8495 18.584C7.0395 19.0535 6 18.485 6 17.5385V6.46252C6 5.51752 7.038 4.94752 7.8495 5.41852L17.394 10.9565C17.5783 11.0617 17.7314 11.2138 17.8379 11.3972C17.9445 11.5807 18.0006 11.7891 18.0006 12.0013C18.0006 12.2134 17.9445 12.4218 17.8379 12.6053C17.7314 12.7888 17.5783 12.9408 17.394 13.046Z">
+						</path>
+					</svg>
+				</a>
+				<div class="modal fade" id="custom-id-7guwfkto" tabindex="-1" aria-hidden="true">
+					<a href="#"
+						class="btn btn-sm btn-width-equal-height position-fixed top-0 end-0 zi-5 rounded-circle btn-bg-3 mt-4 me-4"
+						data-bs-dismiss="modal">
+						<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+							class="fill-dark-2">
+							<path
+								d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z">
+							</path>
+						</svg>
+					</a>
+					<div class="modal-dialog modal-fullscreen">
+						<div class="modal-content bg-transparent">
+							<div class="modal-body d-flex align-items-center justify-content-center">
+								<div class="container d-flex justify-content-center align-items-center">
+									<div class="ratio ratio-16x9">
+										<iframe src="https://www.youtube.com/embed/MvOZYNX6Ri8" allowfullscreen=""
+											data-src="https://www.youtube.com/embed/MvOZYNX6Ri8">
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		<h2 class="display-3 mb-4 mb-xl-6 pt-xxl-20 text-action-1" data-aos="fade-down" data-aos-delay="0">
+			Possibility,
+			<br>powered by play
+		</h2>
+	</section>
+
+	
+	<!-- Call to action 2 -->
+	<section class="py-10 py-md-20 bg-bg-3 text-center" id="our-story">
+		<div class="container">
+			<div class="row flex-column align-items-center">
+				<ourstory class="col-lg-10 col-xl-8">
+					<img src="i/thumb1-1669969902.png" srcset="i/thumb1-1669969902.png 2x" alt="" class="img-fluid mb-6"
+						data-aos="fade-down" data-aos-delay="0">
+					<h2 class="display-5" data-aos="fade-down" data-aos-delay="150">
+						OUR STORY
+					</h2>
+				</ourstory>
+				<div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Header 1 -->
+	<header class="py-20 bg-action-1">
+		<div class="container">
+			<div class="row align-items-center flex-md-row-reverse">
+				<div class="col-md-6">
+					<img src="i/image1.png" srcset="i/image1.png 2x" alt="" class="w-100" data-aos="fade-down"
+						data-aos-delay="0">
+				</div>
+				<div class="col-md-6 mt-8 mt-md-0">
+					<h1 class="display-3 mb-6 text-action-2" data-aos="fade-down" data-aos-delay="150">
+						Young people’s
+						choices matter
+					</h1>
+					<p class="mb-8 fs-1 text-light-2" data-aos="fade-down" data-aos-delay="250">
+						Game of Choice, Not Chance is a model for creating fun mobile games where young people discover,
+						explore, learn and play their way toward becoming empowered choice-makers. Within relatable game
+						worlds co-created with the youth, players navigate challenges by making choices, while gaining
+						direct access to vital information and resources about their health and well-being.
+						<br>
+						<br>As they play, young people discover how they can use their choices and voices to shape their
+						future and open new worlds of possibility in their lives.
+					</p>
+					<div class="collapse" id="custom-id-vxfs8yh4">
+						<div class="mt-6 p-4 border rounded">
+							<p class="mb-0 text-light-1 bg-action-1 font-body">
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Content 14 -->
+	<section class="py-10 py-lg-20 bg-bg-3 text-center">
+		<div class="container">
+			<img src="i/mixed-reailty2.jpg" srcset="i/mixed-reailty2.jpg 2x" alt="" class="img-fluid"
+				data-aos="fade-down" data-aos-delay="0">
+		</div>
+	</section>
+	<!-- Header 4 -->
+	<header class="py-20 bg-bg-3 text-center">
+		<div class="container">
+			<h1 class="display-3 remove-br mb-6 text-action-1" data-aos="fade-down" data-aos-delay="0">
+				Why choice-making?
+				Young people too often lack
+				decision-making agency
+			</h1>
+			<p class="fs-1 pe-2 pt-1 remove-br mb-md-8 mb-6" data-aos="fade-down" data-aos-delay="150">
+				The choices young people make—or are compelled to make—have a ripple effect on their lives now,
+				and their futures as adults. For girls, a single choice to stay in school can protect them against early
+				marriage, pregnancy, and gender-based violence. Yet too many are not able to make that choice.
+				Instead, they are forced to marry before they are ready.
+			</p>
+			<button class="btn btn-action-1" type="button" data-bs-toggle="collapse"
+				data-bs-target="#custom-id-3jz2nznn" aria-expanded="true">
+				Read More
+			</button>
+			<div class="collapse" id="custom-id-3jz2nznn">
+				<div class="mt-6 p-4 border rounded">
+					<p class="mb-0 font-body fs-1">
+						Boys want to experiment, innovate and improvise their way to financial independence, but are
+						pushed towards ‘steady’ jobs that cement their role as providers. They want safe spaces to cry
+						and
+						express their emotions, but feel the pressure to be strong.
+						<br>
+						<br>Young people want to explore different life paths as they transition to adulthood, but often
+						don’t
+						have access to mentors, reliable information and resources that can guide them and their
+						choices.
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header 1 -->
+	<header class="py-20 bg-action-1">
+		<div class="container">
+			<div class="row align-items-center flex-md-row-reverse">
+				<div class="col-md-6">
+					<img src="i/image2-1669974304.png" srcset="i/image2-1669974304.png 2x" alt="" class="w-100"
+						data-aos="fade-down" data-aos-delay="0">
+				</div>
+				<div class="col-md-6 mt-8 mt-md-0">
+					<h1 class="display-3 mb-6 text-action-2" data-aos="fade-down" data-aos-delay="150">
+						We asked what if?
+					</h1>
+					<p class="mb-8 fs-1 text-light-2" data-aos="fade-down" data-aos-delay="250">
+						What if young people could enter alternate worlds as
+						avatars, and gain access to myth-busting information, and
+						explore their interests and preferences without pressure?
+						What if they could try on unfamiliar choices for size; learn
+						how and when to choose; experience the outcomes of
+						their choices safely and realize that their decisions matter.
+						<br>
+						<br>What if—these powerful possibilities could be placed in
+						the palms of their hands?
+						<br>
+						<br>Through mobile games, they can.
+					</p>
+					<div class="collapse" id="custom-id-2p9oxyuw">
+						<div class="mt-6 p-4 border rounded">
+							<p class="mb-0 text-light-1 bg-action-1 font-body">
+								Our games invite youth to enter alternate worlds as avatars, and
+								explore their interests and preferences without pressure. They gain
+								the opportunity to try on unfamiliar choices for size and experience
+								the outcomes of their choices safely. In-game links–made possible by
+								strategic partnering–enable youth instant access to accurate
+								information and vital resources with a tap on the screen.
+								<br>
+								<br>Through our gaming innovations, young people experience the power
+								of choice-making and how it can positively affect their lives so they
+								may become more able to direct their futures with confidence.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Call to action 2 -->
+	<section class="py-10 py-md-20 bg-bg-3 text-center" id="enter-nisha">
+		<div class="container">
+			<div class="row flex-column align-items-center">
+				<div class="col-lg-10 col-xl-8">
+					<img src="i/thumb2-1669975117.png" srcset="i/thumb2-1669975117.png 2x" alt="" class="img-fluid mb-6"
+						data-aos="fade-down" data-aos-delay="0">
+					<h2 class="display-5" data-aos="fade-down" data-aos-delay="150">
+						ENTER NISHA
+					</h2>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- Content 14 -->
+	<section class="py-10 py-lg-20 bg-bg-3 text-center">
+		<div class="container">
+			<a href="https://play.google.com/store/apps/details?id=com.gameofchoicenotchance.gonishago&pli=1"
+				target="_blank"><img src="i/enter-nisha.jpg" srcset="i/enter-nisha.jpg 2x" alt="" class="img-fluid"
+					data-aos="fade-down" data-aos-delay="0"></a>
+
+			<div class="py-10 py-lg-10 text-center">
+				<a href="https://play.google.com/store/apps/details?id=com.gameofchoicenotchance.gonishago&pli=1"
+					target="_blank"><img src="i/google-play-logo.png" srcset="i/google-play-logo.png 2x" alt=""
+						class="img-fluid" data-aos="fade-down" data-aos-delay="0"></a>
+			</div>
+		</div>
+	</section>
+	<!-- Header 4 -->
+	<header class="py-20 bg-bg-3 text-center">
+		<div class="container">
+			<h1 class="display-3 remove-br mb-6 text-action-1" data-aos="fade-down" data-aos-delay="0">
+				An avatar who is adventurous,
+				fun and breaks the silence
+				on taboo subjects
+			</h1>
+			<p class="fs-1 pe-2 pt-1 remove-br mb-md-8 mb-6" data-aos="fade-down" data-aos-delay="150">
+			    	<a href="https://www.gonishago.com/" target="_blank" style="text-decoration: underline ;">Go Nisha Go™</a>
+				 marks our first mobile game co-created with girls, ages 15-19, in Hindi-speaking
+				regions in India and launched on the Google Play Store in Summer 2022.
+				Go Nisha Go is designed to increase girls’ reproductive health knowledge and decision-making
+				confidence, thus empowering them to make informed choices, develop strong voices, and to
+				become better equipped to realize their full potential.
+			</p>
+			<button class="btn btn-action-1" type="button" data-bs-toggle="collapse"
+				data-bs-target="#custom-id-79xoaadl" aria-expanded="true">
+				Read More
+			</button>
+			<div class="collapse" id="custom-id-79xoaadl">
+				<div class="mt-6 p-4 border rounded">
+					<p class="mb-0 font-body fs-1">
+						In the game, players role-play relatable scenarios inspired by girls’ lived experiences and
+						learn about
+						topics that are too often considered taboo. Girls travel through an exciting game world with
+						Nisha
+						gaining access to reliable information about health, self-care, relationships, and careers.
+						Together
+						with Nisha, players navigate challenging situations where they make decisions and experience the
+						outcome of their choices.
+						<br>
+						<br>Co-design approaches and formative research were used to not only develop the game, but at
+						the same time, identify and broker partnerships with NGOs and private sector partners to
+						connect access to products and services to position the game for scale up and sustainability.
+						<br>
+						<br>While the game focuses on menstruation, fertility awareness, contraception, consent,
+						prioritising education/careers and delaying marriage, themes identified through co-design
+						research with girls highlighted key behavioural insights and thematic areas. These are identity,
+						ambition, safety, self-image, relationships, and technology access. Based on these
+						insights/episode themes, the game has forged 20 partnerships with organisations to reach
+						girls where they are and deliver products and services that they value.
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Go Nisha Go -->
+	<section class="py-10 py-lg-20 bg-bg-3 text-center" id="home" style="margin-top: -80px;">
+		<div class="container">
+			<div class="position-relative" data-aos="fade-down" data-aos-delay="0">
+				<img src="i/gonishago.webp" srcset="i/gonishago.webp 1.5x" alt="" class="img-fluid pb-8">
+				<a href="https://www.youtube.com/embed/8yOVl3sDBvI"
+					class="btn btn-width-equal-height position-absolute translate-middle top-50 start-50 rounded-circle btn-light-1"
+					data-bs-toggle="modal" data-bs-target="#custom-id-enterNisha">
+					<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+						class="fill-action-1">
+						<path
+							d="M17.394 13.046L7.8495 18.584C7.0395 19.0535 6 18.485 6 17.5385V6.46252C6 5.51752 7.038 4.94752 7.8495 5.41852L17.394 10.9565C17.5783 11.0617 17.7314 11.2138 17.8379 11.3972C17.9445 11.5807 18.0006 11.7891 18.0006 12.0013C18.0006 12.2134 17.9445 12.4218 17.8379 12.6053C17.7314 12.7888 17.5783 12.9408 17.394 13.046Z">
+						</path>
+					</svg>
+				</a>
+				<div class="modal fade" id="custom-id-enterNisha" tabindex="-1" aria-hidden="true">
+					<a href="#"
+						class="btn btn-sm btn-width-equal-height position-fixed top-0 end-0 zi-5 rounded-circle btn-bg-3 mt-4 me-4"
+						data-bs-dismiss="modal">
+						<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+							class="fill-dark-2">
+							<path
+								d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z">
+							</path>
+						</svg>
+					</a>
+					<div class="modal-dialog modal-fullscreen">
+						<div class="modal-content bg-transparent">
+							<div class="modal-body d-flex align-items-center justify-content-center">
+								<div class="container d-flex justify-content-center align-items-center">
+									<div class="ratio ratio-16x9">
+										<iframe src="https://www.youtube.com/embed/8yOVl3sDBvI" allowfullscreen=""
+											data-src="https://www.youtube.com/embed/8yOVl3sDBvI">
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Go Nisha Go -->
+
+
+	<!-- Header 8 -->
+	<header class="py-16 bg-action-3">
+		<div class="container">
+			<div class="row justify-content-center align-items-center">
+				<center>
+					<div class="mb-6 mb-md-0 col-md-8 col-lg-9 col-xl-8" data-aos="fade-down" data-aos-delay="0">
+						<h2 class="display-4 remove-br-md text-action-2">
+							Gaining from gaming
+
+						</h2>
+				</center>
+			</div>
+			<div class="col-xl-2 col-lg-3 col-md-4 d-md-flex justify-content-end">
+			</div>
+		</div>
+		</div>
+	</header>
+	<!-- Content 14 -->
+	<section class="text-center bg-action-3">
+		<div class="container">
+			<img src="i/image1854x976.jpg" srcset="i/image1854x976.jpg 2x" alt="" class="img-fluid" data-aos="fade-down"
+				data-aos-delay="0">
+		</div>
+	</section>
+	<!-- Team 5 -->
+	<section class="py-10 py-lg-20 text-center text-md-start bg-action-3">
+		<div class="container">
+			<div class="row justify-content-between align-items-center mb-15">
+				<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5">
+				</div>
+				<div class="col-md-9 col-lg-5">
+				</div>
+			</div>
+			<div class="row justify-content-center justify-content-md-start">
+				<div class="col-sm-8 col-md-6 col-lg-3 mb-12 mb-lg-0" data-aos="fade-down" data-aos-delay="250">
+					<img src="i/new1.png" srcset="i/new1.png 2x" alt="" class="img-fluid mb-6">
+					<h1 class="mb-2 text-light-1 fs-1 font-heading">
+						Role play
+						&amp; replay
+					</h1>
+					<p class="mb-0 text-light-1 fs-2">
+						Try on choices,
+						experience
+						choice-outcomes, and
+						‘try again,’ all in a
+						low-risk environment
+					</p>
+				</div>
+				<div class="col-sm-8 col-md-6 col-lg-3 mb-12 mb-lg-0" data-aos="fade-down" data-aos-delay="400">
+					<img src="i/new2.png" srcset="i/new2.png 2x" alt="" class="img-fluid mb-6">
+					<h4 class="mb-2 text-light-1">
+						Engage in
+						a
+						<br>private
+						space
+					</h4>
+					<p class="mb-0 text-light-1 fs-2">
+						Explore accurate Sexual
+						and Reproductive Health
+						(SRH) information and
+						self-care resources that
+						is often considered
+						taboo in a space that is
+						confidential
+					</p>
+				</div>
+				<div class="col-sm-8 col-md-6 col-lg-3 mb-12 mb-md-0" data-aos="fade-down" data-aos-delay="500">
+					<img src="i/new3.png" srcset="i/new3.png 2x" alt="" class="img-fluid mb-6">
+					<h4 class="mb-2 text-light-1">
+						Access
+						resources
+						directly
+					</h4>
+					<p class="mb-0 text-light-1 fs-2">
+						Have vital resources
+						delivered directly into
+						the palm of their
+						hands and outside the
+						health system
+					</p>
+				</div>
+				<div class="col-sm-8 col-md-6 col-lg-3" data-aos="fade-down" data-aos-delay="650">
+					<img src="i/new4.png" srcset="i/new4.png 2x" alt="" class="img-fluid mb-6">
+					<h4 class="mb-2 text-light-1">
+						Receive
+						guidance
+					</h4>
+					<p class="mb-0 text-light-1 fs-2">
+						Get supportive nudges toward positive choices and self-care from in-game mentor characters and
+						links
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Testimonial 6 -->
+	<section class="py-10 py-lg-20 bg-bg-3">
+		<div class="container">
+			<div class="row justify-content-center text-md-center">
+				<div class="col-lg-10 col-xl-8">
+					<h2 class="display-5 mb-6 text-action-1" data-aos="fade-down" data-aos-delay="0">
+						What girls are saying
+					</h2>
+				</div>
+				<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5 mb-15">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4 mb-6" data-aos="fade-down" data-aos-delay="250">
+					<div class="border rounded-2 h-100 p-6">
+						<p class="mb-6 fs-1 text-action-1">
+							“Choices are the power
+							that can lead us to the
+							places we want to go.”
+						</p>
+						<h6 class="fs-2">
+							~ Dehradun
+						</h6>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-6" data-aos="fade-down" data-aos-delay="250">
+					<div class="border rounded-2 h-100 p-6">
+						<p class="mb-6 fs-1 text-action-1">
+							“The game talks about career,
+							confidence-building, periods
+							and products to use. It’s really
+							helpful for girls.”
+						</p>
+						<h6 class="fs-2">
+							~ Ajmer
+						</h6>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-6" data-aos="fade-down" data-aos-delay="250">
+					<div class="border rounded-2 h-100 p-6">
+						<p class="mb-6 fs-1 text-action-1">
+							“Nisha is a brave girl
+							because she had the
+							courage to make her own
+							choices. In fact, [in the
+							game] it was not Nisha, but
+							me who was making the
+							choices!”
+						</p>
+						<h6 class="fs-2">
+							~ Dehradun
+						</h6>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-6" data-aos="fade-down" data-aos-delay="250">
+					<div class="border rounded-2 h-100 p-6">
+						<p class="mb-6 fs-1 text-action-1">
+							“I believe the Go Nisha Go game has
+							helped me in becoming more
+							focused on my education and career.
+							Like Nisha, I am also very
+							aspirational and driven to achieve
+							what I have wanted to. The game
+							gives me hope.”
+						</p>
+						<h6 class="fs-2">
+						</h6>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-6" data-aos="fade-down" data-aos-delay="250">
+					<div class="border rounded-2 h-100 p-6">
+						<p class="mb-6 fs-1 text-action-1">
+							“I will make my brother play
+							this game so he treats girls
+							well.”
+						</p>
+						<h6 class="fs-2">
+							~ Patna
+						</h6>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4 mb-6" data-aos="fade-down" data-aos-delay="250">
+					<div class="border rounded-2 h-100 p-6">
+						<p class="mb-6 fs-1 text-action-1">
+							“My newly-married friends talk
+							about not knowing enough
+							about contraceptives. This
+							game is very useful in that
+							sense.”
+						</p>
+						<h6 class="fs-2">
+							~ Ajmer
+						</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Content 15 -->
+	<section class="py-10 py-lg-20 text-center bg-">
+		<div class="container">
+			<div class="position-relative" data-aos="fade-down" data-aos-delay="0">
+				<img src="i/testimonial.jpg" alt="" class="img-fluid w-75">
+				<a href="#"
+					class="btn btn-width-equal-height btn-action-1 position-absolute translate-middle top-50 start-50 rounded-circle"
+					data-bs-toggle="modal" data-bs-target="#custom-id-28ndm1g8">
+					<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+						class="fill-light-1">
+						<path
+							d="M17.394 13.046L7.8495 18.584C7.0395 19.0535 6 18.485 6 17.5385V6.46252C6 5.51752 7.038 4.94752 7.8495 5.41852L17.394 10.9565C17.5783 11.0617 17.7314 11.2138 17.8379 11.3972C17.9445 11.5807 18.0006 11.7891 18.0006 12.0013C18.0006 12.2134 17.9445 12.4218 17.8379 12.6053C17.7314 12.7888 17.5783 12.9408 17.394 13.046Z">
+						</path>
+					</svg>
+				</a>
+				<div class="modal fade" id="custom-id-28ndm1g8" tabindex="-1" aria-hidden="true">
+					<a href="#"
+						class="btn btn-sm btn-width-equal-height position-fixed top-0 end-0 zi-5 rounded-circle btn-bg-3 mt-4 me-4"
+						data-bs-dismiss="modal">
+						<svg width="24" height="24" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+							class="fill-dark-2">
+							<path
+								d="M8.9398 8L13.1398 3.80667C13.2653 3.68113 13.3359 3.51087 13.3359 3.33333C13.3359 3.1558 13.2653 2.98554 13.1398 2.86C13.0143 2.73447 12.844 2.66394 12.6665 2.66394C12.4889 2.66394 12.3187 2.73447 12.1931 2.86L7.9998 7.06L3.80646 2.86C3.68093 2.73447 3.51066 2.66394 3.33313 2.66394C3.1556 2.66394 2.98533 2.73447 2.8598 2.86C2.73426 2.98554 2.66374 3.1558 2.66374 3.33333C2.66374 3.51087 2.73426 3.68113 2.8598 3.80667L7.0598 8L2.8598 12.1933C2.79731 12.2553 2.74771 12.329 2.71387 12.4103C2.68002 12.4915 2.6626 12.5787 2.6626 12.6667C2.6626 12.7547 2.68002 12.8418 2.71387 12.9231C2.74771 13.0043 2.79731 13.078 2.8598 13.14C2.92177 13.2025 2.99551 13.2521 3.07675 13.2859C3.15798 13.3198 3.24512 13.3372 3.33313 13.3372C3.42114 13.3372 3.50827 13.3198 3.58951 13.2859C3.67075 13.2521 3.74449 13.2025 3.80646 13.14L7.9998 8.94L12.1931 13.14C12.2551 13.2025 12.3288 13.2521 12.4101 13.2859C12.4913 13.3198 12.5785 13.3372 12.6665 13.3372C12.7545 13.3372 12.8416 13.3198 12.9228 13.2859C13.0041 13.2521 13.0778 13.2025 13.1398 13.14C13.2023 13.078 13.2519 13.0043 13.2857 12.9231C13.3196 12.8418 13.337 12.7547 13.337 12.6667C13.337 12.5787 13.3196 12.4915 13.2857 12.4103C13.2519 12.329 13.2023 12.2553 13.1398 12.1933L8.9398 8Z">
+							</path>
+						</svg>
+					</a>
+					<div class="modal-dialog modal-fullscreen">
+						<div class="modal-content bg-transparent">
+							<div class="modal-body d-flex align-items-center justify-content-center">
+								<div class="container d-flex justify-content-center align-items-center">
+									<div class="ratio ratio-16x9">
+										<iframe src="https://www.youtube.com/embed/Y5hHNt_gB-g" allowfullscreen=""
+											data-src="https://designmodo.com/startup/app/preview.php?id=16291&amp;inEditor=1">
+										</iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Call to action 2 -->
+	<section class="py-10 py-md-20 bg-bg-3 text-center" id="go-approach">
+		<div class="container">
+			<div class="row flex-column align-items-center">
+				<div class="col-lg-10 col-xl-8">
+					<img src="i/thumb3-1669977685.png" srcset="i/thumb3-1669977685.png 2x" alt="" class="img-fluid mb-6"
+						data-aos="fade-down" data-aos-delay="0">
+					<h2 class="display-5" data-aos="fade-down" data-aos-delay="150">
+						GOC APPROACH
+					</h2>
+				</div>
+				<div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Feature 17 -->
+	<section class="py-10 py-lg-20 text-center text-md-start bg-action-5">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-9 col-lg-7 col-xl-6 col-xxl-5 text-center">
+					<h2 class="mb-6 display-5 text-light-1" data-aos="fade-down" data-aos-delay="0">
+						The methodology
+						<br> behind the game
+					</h2>
+					<p class="mb-15 text-light-2 fs-1" data-aos="fade-down" data-aos-delay="150">
+						In the
+						<b>
+							Go Nisha Go™
+						</b>
+						game and digital platform, four interrelated, non-linear pathways create an experience that
+						engages, empowers, and educates game users.
+					</p>
+				</div>
+			</div>
+			<div class="mb-15 mb-md-8 row align-items-center flex-md-row-reverse justify-content-center">
+				<div class="mb-8 mb-md-0 col-10 col-sm-7 col-md-5 col-xl-4">
+					<img src="i/method3-1670012205.png" srcset="i/method3-1670012205.png 2x" alt=""
+						class="img-fluid w-100" data-aos="fade-down" data-aos-delay="250">
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-6 col-xl-5 col-xxl-4">
+					<p class="mb-0 text-light-2 fs-1" data-aos="fade-down" data-aos-delay="500">
+						In the
+						<b>
+							Discover
+						</b>
+						pathway, the Proteus Effect theorizes that experiencing outcomes of choices made for an avatar,
+						resembling the players themselves, promotes emulation of avatar behavior, and consequently,
+						real-life agency.
+					</p>
+				</div>
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="mb-8 mb-md-0 col-10 col-sm-7 col-md-5 col-xl-4">
+					<img src="i/method2-1670012110.png" srcset="i/method2-1670012110.png 2x" alt=""
+						class="img-fluid w-100" data-aos="fade-down" data-aos-delay="250">
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-6 col-xl-5 col-xxl-4">
+					<p class="mb-0 text-light-2 pb-8 fs-1" data-aos="fade-down" data-aos-delay="500">
+						The
+						<b>
+							decision-making
+						</b>
+						pathway is rooted in
+						social learning and motivation theory of role
+						modelling, which ‘nudges’ the players to make
+						informed choices about their health,
+						relationships, and to demonstrate confidence.
+					</p>
+				</div>
+			</div>
+			<div class="row align-items-center justify-content-center">
+				<div class="col-md-6 col-xl-5 col-xxl-4">
+					<p class="mb-0 text-light-2 fs-1" data-aos="fade-down" data-aos-delay="500">
+						In the
+						<b>
+							play
+						</b>
+						pathway, game-based learning theory is applied to engage, challenge, and entertain the player.
+					</p>
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="mb-8 mb-md-0 col-10 col-sm-7 col-md-5 col-xl-4">
+					<img src="i/method1-1670012252.png" srcset="i/method1-1670012252.png 2x" alt=""
+						class="img-fluid w-100" data-aos="fade-down" data-aos-delay="250">
+				</div>
+			</div>
+			<div class="mb-15 mb-md-8 row align-items-center flex-md-row-reverse justify-content-center">
+				<div class="col-md-6 col-xl-5 col-xxl-4">
+					<p class="mb-0 text-light-2 fs-1" data-aos="fade-down" data-aos-delay="500">
+						The
+						<b>
+							act
+						</b>
+						pathway integrates behavioral economics, psychology, and marketing to enable the players’ direct
+						access to information, products, and services within the game, through strategic partnerships
+						with the private sector.
+					</p>
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="mb-8 mb-md-0 col-10 col-sm-7 col-md-5 col-xl-4">
+					<img src="i/method4.png" srcset="i/method4.png 2x" alt="" class="img-fluid w-100"
+						data-aos="fade-down" data-aos-delay="250">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Content 7 -->
+	<section class="py-10 py-lg-20 bg-bg-3">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-xxl-5 col-xl-6 col-lg-7 col-md-9">
+					<p class="fs-2 mb-0 text-start">
+						This approach of using multiple, and multi-disciplinary, pathways to change, is of particular
+						interest for impact measurement of innovations, especially digital products that do not easily
+						conform with traditional behavior change models or standard co-design approaches.
+						<br>
+						<br>There are benefits of using
+						cumulative and iterative inputs to integrate user feedback while formulating the pathway to
+						study
+						impact - not just limiting it to the design and development process, but continuously collecting
+						data
+						to modify and improve outcomes.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Content 5 -->
+	<section class="py-10 py-lg-20 bg-bg-3 text-center text-md-start">
+		<div class="container">
+			<h2 class="display-5 mb-6" data-aos="fade-down" data-aos-delay="0">
+				<center> Want to read about the Game of Choice, <br>Not Chance approach in more detail?</center> 
+			</h2>
+			<center> <a href="https://drive.google.com/file/d/1TRg-7Iy1j8-NJcdV1M-PL1BrODF9j1LR/view?ts=641da043"
+					class="btn btn-action-1" target="_blank">
+					DOWNLOAD IT HERE
+				</a> </center>
+		</div>
+	</section>
+	<!-- Header 1 -->
+	<header class="py-20 bg-action-5">
+		<div class="container">
+			<div class="row align-items-center flex-md-row-reverse">
+				<div class="col-md-6">
+					<img src="i/image3-1669930993.png" srcset="i/image3-1669930993.png 2x" alt="" class="w-100"
+						data-aos="fade-down" data-aos-delay="0">
+				</div>
+				<div class="col-md-6 mt-8 mt-md-0">
+					<h1 class="display-3 mb-6 text-light-1" data-aos="fade-down" data-aos-delay="150">
+						Youth-centered,
+						<br>data-driven
+					</h1>
+					<p class="mb-8 fs-1 text-light-2" data-aos="fade-down" data-aos-delay="250">
+						Different research methodologies are being applied to establish the effectiveness and impact of
+						the game. Predictive Analytics modeling is being applied to capture in-game data, identify
+						associations, make predictions, as well as create precision messaging based on in-game
+						behaviors.
+						<br>
+						<br>This multi-angle research approach can translate the player’s gaming experience into
+						making informed choices with intention in real life – not by chance. Pre-and post-game launch
+						surveys will be conducted as part of an outcome evaluation that will measure knowledge gained
+						outside the game - changes in attitudes, perceptions, and select behaviors.
+					</p>
+					<div class="collapse" id="custom-id-et7lmshw">
+						<div class="mt-6 p-4 border rounded">
+							<p class="mb-0 text-light-1 bg-action-1 font-body">
+								Our games invite youth to enter alternate worlds as avatars, and
+								explore their interests and preferences without pressure. They gain
+								the opportunity to try on unfamiliar choices for size and experience
+								the outcomes of their choices safely. In-game links–made possible by
+								strategic partnering–enable youth instant access to accurate
+								information and vital resources with a tap on the screen.
+								<br>
+								<br>Through our gaming innovations, young people experience the power
+								of choice-making and how it can positively affect their lives so they
+								may become more able to direct their futures with confidence.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Call to action 2 -->
+	<section class="py-10 py-md-20 bg-bg-3 text-center" id="key-layers">
+		<div class="container">
+			<div class="row flex-column align-items-center">
+				<div class="col-lg-10 col-xl-8">
+					<img src="i/thumb4.png" srcset="i/thumb4.png 2x" alt="" class="img-fluid mb-6" data-aos="fade-down"
+						data-aos-delay="0">
+					<h2 class="display-5 text-dark-1" data-aos="fade-down" data-aos-delay="150">
+						KEY PLAYERS
+					</h2>
+				</div>
+				<div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Content 8 -->
+	<section class="py-10 py-lg-20 bg-bg-3">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="mb-8 mb-md-0 col-md-6 col-lg-5">
+					<p class="mb-0 fs-1 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						<b>
+							Game of Choice, Not Chance™ (GOC)
+						</b> is a USAID-funded initiative led by Howard Delafield International and implemented through
+						partnerships with India-based partners: Metamersive, Vihara Innovation Network, Girl Effect,
+						Restless Development, Population Council Consulting, Mullen Lowe Lintas Group, Infinity Internet
+						and in the US: Cycle Technologies and NAM ER Technology. The GOC consortium experts include game
+						developers and designers, social science researchers and public health technical experts, data
+						scientists, behavioral change specialists, as well as marketing and communication professionals.
+					</p>
+				</div>
+				<div class="col-md-6 col-lg-5">
+					<p class="mb-0 fs-1 pe-xxl-4" data-aos="fade-down" data-aos-delay="400">
+						<b>
+							<a href="https://www.howard-delafield.com/" style="text-decoration: underline ;">Howard Delafield International (HDI)</a>
+						</b>
+						is a behavioral insights consultancy driving innovation to positively impact lives. HDI partners
+						with organizations in the public, private, and social sectors to creatively solve problems.
+						Their work over 25 years focuses on social, health, and environmental challenges to serve
+						vulnerable and underserved populations globally. HDI does this by combining theories from
+						behavioral and social sciences with game-based learning, data science, social marketing,
+						emerging mobile technologies, and market-based approaches.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="py-10 py-lg-5 bg-bg-3">
+		<div class="container">
+
+			<div class="row justify-content-center px-lg-20">
+				<div class="row justify-content-center px-lg-10">
+
+				<h2 class="pb-10" data-aos="fade-down" data-aos-delay="150">GOC Advisory Board</h2>
+
+				<div class="mb-8 mb-md-0 col-md-3 col-lg-3">
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+					Anand Sinha
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+					Dr. Aparajita Gogoi
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+					Priya Jha
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+					Dipa Nag Chowdury
+					</p>
+				</div>
+				
+				<div class="mb-8 mb-md-0 col-md-3 col-lg-3">
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						Dr. Vandita Gupta
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						Rajiv Singh
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						Shailja Mehta
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						Shireen Jejeebhoy, PhD
+					</p>
+				</div>
+				<div class="mb-8 mb-md-0 col-md-3 col-lg-3">
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						Dolly Oberoi
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						John Tifft, Atty, LLB
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						Margaret Greene
+					</p>
+					
+				</div>
+				<div class="mb-8 mb-md-0 col-md-3 col-lg-3">
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						Rajeeb Satyal
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						Sharon Stash, PhD
+					</p>
+					<p class="mb-0 fs-3 pe-xxl-4" data-aos="fade-down" data-aos-delay="150">
+						Shomu Banerjee, PhD
+					</p>
+					
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	
+
+	
+	
+	
+	
+	
+	
+
+
+	<!-- Content 14 -->
+	<section class="py-10 py-lg-20 bg-bg-3 text-center">
+		<div class="container">
+			<img src="i/logos5.png" srcset="i/logos5.png 2x" alt="" class="img-fluid" data-aos="fade-down"
+				data-aos-delay="0">
+		</div>
+	</section>
+	<!-- Content 14 -->
+	<section class="py-10 py-lg-20 text-center">
+		<div class="container">
+			<img src="i/mixed-reailty3.jpg" srcset="i/mixed-reailty3.jpg 2x" alt="" class="img-fluid"
+				data-aos="fade-down" data-aos-delay="0">
+		</div>
+	</section>
+	<!-- Content 9 -->
+	<section class="py-10 py-lg-20 text-center text-md-start bg-bg-3">
+		<div class="container">
+			<h2 class="font-heading display-3 text-action-1 pb-8">
+				Where we're heading
+			</h2>
+			<p class="fs-1 font-body pb-xxl-8 mb-12">
+				From India, Nepal and beyond, we’re opening up a world of possibilities through gameplay.
+			</p>
+			<div class="row">
+				<div class="mb-8 mb-md-0 col-md-4 pe-xxl-12" data-aos="fade-down" data-aos-delay="0">
+					<h1 class="mb-4 fs-1 display-1 font-heading">
+						Expanding regionally
+					</h1>
+					<p class="mb-0 fs-1">
+						We are in the early stages of scaling and adapting Go Nisha Go in Nepal, under the USAID
+						Adolescent Reproductive Health (ARH) Activity, led by CARE.
+					</p>
+				</div>
+				<div class="mb-8 mb-md-0 col-md-4 pe-xxl-12" data-aos="fade-down" data-aos-delay="0">
+					<h1 class="mb-4 fs-1 font-heading">
+						Co-creating a game with boys
+					</h1>
+					<p class="mb-0 fs-1">
+						We’re using the Game of Choice, Not Chance™ model to craft a new game with and for boys and
+						young men in India that is complementary to Go Nisha Go. The new gaming innovation led by Howard
+						Delafield International will promote allyship, support aspirations and generate demand amongst
+						boys for adolescent sexual and reproductive health products, information and services.
+					</p>
+				</div>
+				<div class="mb-8 mb-md-0 col-md-4 pe-xxl-12" data-aos="fade-down" data-aos-delay="0">
+					<h2 class="mb-4 fs-1">
+						Making a suite of games and digital AI-based products
+					</h2>
+					<p class="mb-0 fs-1">
+						To support the scale up and sustainability of Go Nisha Go game, we are building on existing
+						methodology, Direct-to-Consumer (D2C) infrastructure, and youth-friendly content and storylines.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Header 1 -->
+	<header class="py-20 bg-action-1">
+		<div class="container">
+			<div class="row align-items-center flex-md-row-reverse">
+				<div class="col-md-6">
+					<img src="i/image4-1670014478.png" srcset="i/image4-1670014478.png 2x" alt="" class="w-100"
+						data-aos="fade-down" data-aos-delay="0">
+				</div>
+				<div class="col-md-6 mt-8 mt-md-0">
+					<h1 class="display-3 mb-6 text-light-1" data-aos="fade-down" data-aos-delay="150">
+						Get in the Game
+					</h1>
+					<p class="mb-8 fs-1 text-light-2" data-aos="fade-down" data-aos-delay="250">
+						As navigators of their own lives and tomorrow’s leaders, young people need guidance on their
+						journey toward empowered choice-making. HDI and the Game of Choice, Not Chance community are
+						committed to creating gaming innovations that support adolescents and youth in building their
+						decision-making muscle so they can make choices confidently and live more self-defined lives.
+						<br>
+						<br>If putting youth at the center of gamified, tech-based solutions is your game, our growing
+						community may be for you! Let's work together to support young people's power of choice!
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Contact 3 -->
+	<section class="py-30 py-lg-20 bg-bg-3" id="connect">
+		<div class="container">
+			<h2 class="text-center display-5 mb-6 text-action-1" data-aos="fade-down" data-aos-delay="0">
+				Connect
+			</h2>
+
+
+			<div class="row justify-content-center">
+				<div class="col-xl-4 col-lg-5 col-md-7 col-sm-9">
+					<form action="https://gameofchoicenotchance.com/form-handler.php" method="post"
+						enctype="multipart/form-data" class="js-ajax-form" data-aos="fade-down" data-aos-delay="150">
+						<!-- forms alerts -->
+						<div class="alert alert-action-8 fixed-top invisible fade js-form-result" data-result="success"
+							role="alert">
+							<span class="js-form-alert-text" data-default-text="Thanks for your message!">
+								Thanks for your message!
+							</span>
+						</div>
+						<div class="alert alert-action-5 fixed-top invisible fade js-form-result" data-result="error"
+							role="alert">
+							<span class="js-form-alert-text">
+								Error!
+							</span>
+						</div>
+						<!-- forms alerts end -->
+						<label class="fs-6 fw-bold text-dark-1 mb-3">
+							Name
+						</label>
+						<input type="text" name="name" placeholder="Your Name"
+							class="mb-6 form-control border border-dark-3">
+						<label class="fs-6 fw-bold text-dark-1 mb-3">
+							Email
+						</label>
+						<input type="email" name="email" placeholder="example@mail.com"
+							class="form-control border border-dark-3 mb-6">
+						<label class="fs-6 fw-bold text-dark-1 mb-3">
+							Subject
+						</label>
+						<label class="fs-6 fw-bold text-dark-1 mb-3">
+							Message
+						</label>
+						<textarea name="message" placeholder="Your message"
+							class="form-control border border-dark-3 mb-6" rows="5"></textarea>
+						<label class="form-check mb-6">
+							<input class="form-check-input" type="checkbox" name="checkbox" checked="checked">
+							<span class="form-check-label">
+								Subscribe to our newsletter
+							</span>
+						</label>
+						<button class="btn btn-action-1 w-100">
+							Submit
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer 4 -->
+	<footer class="bg-bg-3 pb-md-8 pt-md-10 py-8 text-center">
+		<div class="container">
+			
+			
+			
+			
+			<div class="mt-10 mb-8 border-bottom border-dark-3" data-aos="fade-down" data-aos-delay="400">
+			</div>
+			<p class="fs-5 mb-0" data-aos="fade-down" data-aos-delay="500">
+				This site was prepared by Howard Delafield International for Game of Choice, Not Chance. Game of Choice,
+				Not
+				Chance Project is made possible by the generous support of the American people through the United States
+				Agency for
+				International Development (USAID), and is implemented under the terms of the Cooperative Agreement No.
+				7200AA18CA0004 in association with Howard Delafield International and its collaborating partners. The
+				information on this site does not necessarily reflect the views of USAID or the United States
+				Government.
+			</p>
+		</div>
+	</footer>
+
+	<!-- Bootstrap JS -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!-- AOS 3.0.0-beta.6 plugin JS (Animations) -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+	<!-- Startup JS (Custom js for all blocks) - Remove ".min" if you want to edit a JS code -->
+	<script src="js/scripts.min.js"></script>
+
+</body>
+
+</html>

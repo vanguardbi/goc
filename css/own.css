@@ -1,0 +1,6 @@
+.hide-menu-social ul, .hide-menu-social li { list-style-type: none; margin: 0; padding: 0;}
+.hide-menu-social li { float: left; margin-right: 20px;}
+
+@media (max-width: 1200px) {
+  .menulinks { text-align: left; font-size: 14px;}
+}
